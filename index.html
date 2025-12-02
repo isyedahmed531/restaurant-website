@@ -1,31 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant Website</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-</head>
-<body>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--navbar-->
+    <section class="header">
+      <div class="logo">Sindhri Restaurant</div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+        </ul>
+      </nav>
+    </section>
 
-  <!--navbar-->
-  <section class="header">
-    <div class="logo">Sindhri Restaurant</div>
-    <nav class="nav">
-      <ul>
-        <li><a href="#home">Home</a></li> 
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#service">Service</a></li>
-        <li><a href="#feedback">Feedback</a></li>
-      </ul>
-    </nav>
-  </section>
+    <!--home section-->
+    <section id="home">
+      <h1>
+        Welcome To Our Sindhri Restaurant <br />
+        Fresh ,Declious and unforgettable food or Love!
+      </h1>
+    </section>
 
- <!--home section-->
-  <section id="home">
-    <h1>Welcome To Our Sindhri Restaurant <br>
-    Fresh ,Declious and unforgettable food or Love!</h1>
-  </section>
-  
-</body> 
+    <!-- Menu Section -->
+    <section id="main">
+      <h2>Menu Section</h2>
+      <div class="main-container">
+        <div class="menu-card">
+          <img
+            src="https://t4.ftcdn.net/jpg/02/58/91/65/360_F_258916556_B6oirjJOKQkaxs39KPi9wjf9ePlT7zF8.jpg"
+            alt=""
+          />
+          <div class="card-content">
+            <h1>Sandwitch item</h1>
+            <p>This Sandwitch have ultra test you can try</p>
+            <span>$565</span>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img
+            src="https://media.istockphoto.com/id/1442417585/photo/person-getting-a-piece-of-cheesy-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=k60TjxKIOIxJpd4F4yLMVjsniB4W1BpEV4Mi_nb4uJU="
+            alt="pizza"
+          />
+          <div class="card-content">
+            <h1>Pizza item</h1>
+            <p>this is delecous pizza item</p>
+            <span>$1690</span>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img
+            src="https://media.istockphoto.com/id/1254672762/photo/delicious-homemade-hamburger-and-french-fries.jpg?s=612x612&w=0&k=20&c=9BgdcWXRMb8hPZd2049StXFqvhDRq3izLkXK7Cq2C9s="
+            alt=""
+          />
+          <div class="card-content">
+            <h1>Cheez Burger</h1>
+            <p>This burger is one of the best item</p>
+            <span>$124</span>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img
+            src="https://i.ytimg.com/vi/cKkKkqKJ-uU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBSvl64zMK7msQk5v0puLI7wkaHrw"
+            alt=""
+          />
+          <div class="card-content">
+            <h1>Chiken broast</h1>
+            <p>This is yummy tasty item</p>
+            <span>$343</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
